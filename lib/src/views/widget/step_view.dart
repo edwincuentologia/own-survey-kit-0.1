@@ -57,9 +57,7 @@ class StepView extends StatelessWidget {
                           step.buttonText?.toUpperCase() ??
                           'Next',
                       style: TextStyle(
-                        color: isValid
-                            ? Theme.of(context).primaryColor
-                            : Colors.grey,
+                        color: isValid ? Colors.white : Colors.grey,
                       ),
                     ),
                   ),
